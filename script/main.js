@@ -1,3 +1,6 @@
+const screen = document.createElement('div');
+screen.classList.add('scr');
+document.body.appendChild(screen);
 const controler = document.createElement('div');
 controler.classList.add('cont');
 document.body.appendChild(controler);
@@ -16,7 +19,7 @@ controler.appendChild(keyleft);
 
 const pacman = document.createElement('div');
 pacman.classList.add('man');
-document.body.appendChild(pacman);
+screen.appendChild(pacman);
 
 let down1 = 0;
 let left1 = 0;

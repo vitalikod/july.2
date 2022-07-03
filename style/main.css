@@ -2,7 +2,15 @@
   margin: 0;
 }
 
-.man {
+.scr {
+  height: 700px;
+  width: 700px;
+  background-color: #76EEA0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.scr .man {
   height: 50px;
   width: 50px;
   background-color: yellow;
