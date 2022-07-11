@@ -19,6 +19,17 @@
   position: absolute;
 }
 
+.scr .barrier {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 12px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
 .cont {
   height: 100px;
   width: 400px;
@@ -73,5 +84,13 @@
   top: 35px;
   border-radius: 12px;
   border: 1px solid black;
+}
+
+.char {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 25px;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
