@@ -181,9 +181,15 @@ document.addEventListener('keydown', (jj) => {
     
 })
 let place = {
-    x: 100,
-    y: 100,
+    x: 0,
+    y: 0,
 };
+place = {
+    x: Math.floor((Math.random() * 14 +1)) * shag,
+    y: Math.floor((Math.random() * 14 +1)) * shag,
+};
+console.log(place);
+
 let top11 = place.x;
 let left11 = place.y;
 barrier.style.top = `${top11}px`;
