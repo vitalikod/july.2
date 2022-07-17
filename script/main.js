@@ -111,11 +111,11 @@
 //     }
 // })  
 
-// let randomBarrier = {
+// let jjjj = {
 //     x: Math.floor((Math.random() * 14 +1)) * shag,
 //     y: Math.floor((Math.random() * 14 +1)) * shag,
 // };
-// console.log(randomBarrier);
+// console.log(jjjj);
 
 const screen = document.createElement('div');
 screen.classList.add('screen');
@@ -173,18 +173,25 @@ document.addEventListener('keydown', (ev) => {
     }
     
 })
-barrier.addEventListener('click', () => {
-    console.log('objeck:', pacman1.x, pacman1.y );
+document.addEventListener('keydown', (jj) => {
+    if(jj.key == 'w') {
+        console.log(JSON.stringify(pacman1) === JSON.stringify(place));
+        ggg();
+    }
+    
 })
 let place = {
-    x: 150,
-    y: 300,
+    x: 100,
+    y: 100,
 };
 let top11 = place.x;
 let left11 = place.y;
 barrier.style.top = `${top11}px`;
 barrier.style.left = `${left11}px`;
 
-function deepEqual(a, b) {
-    for(let key in a)
+function ggg(a, b) {
+    if(JSON.stringify(a) === JSON.stringify(b)) return left1 -= shag;
 }
+
+ggg(pacman1, place);
+console.log(ggg);

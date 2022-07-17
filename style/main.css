@@ -1,96 +1,22 @@
-* {
-  margin: 0;
-}
-
-.scr {
-  height: 700px;
-  width: 700px;
-  background-color: #76EEA0;
+.screen {
+  height: 750px;
+  width: 750px;
+  background-color: aquamarine;
   margin: 0 auto;
   position: relative;
 }
 
-.scr .man {
-  height: 50px;
-  width: 50px;
-  background-color: yellow;
-  border: 1px solid black;
-  border-radius: 12px;
+.screen .barrier {
   position: absolute;
-}
-
-.scr .barrier {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  border: 1px solid black;
-  border-radius: 12px;
-  position: absolute;
-  top: 200px;
-  left: 200px;
-}
-
-.cont {
-  height: 100px;
-  width: 400px;
-  border: 1px solid black;
-  border-radius: 64px;
-  background-color: #FDA5D4;
-  position: relative;
-  position: absolute;
-  bottom: 0px;
-  left: 600px;
-}
-
-.cont .keyu {
   height: 30px;
   width: 30px;
-  background-color: yellow;
-  position: absolute;
-  left: 185px;
-  top: 10px;
-  border-radius: 12px;
-  border: 1px solid black;
+  background-color: green;
 }
 
-.cont .keyr {
+.screen .pacman {
+  position: absolute;
   height: 30px;
   width: 30px;
   background-color: tomato;
-  position: absolute;
-  top: 35px;
-  right: 20px;
-  border-radius: 12px;
-  border: 1px solid black;
-}
-
-.cont .keyd {
-  height: 30px;
-  width: 30px;
-  background-color: tomato;
-  position: absolute;
-  left: 185px;
-  bottom: 10px;
-  border-radius: 12px;
-  border: 1px solid black;
-}
-
-.cont .keyl {
-  height: 30px;
-  width: 30px;
-  background-color: grey;
-  position: absolute;
-  left: 20px;
-  top: 35px;
-  border-radius: 12px;
-  border: 1px solid black;
-}
-
-.char {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  border-radius: 25px;
-  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
